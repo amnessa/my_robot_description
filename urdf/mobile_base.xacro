@@ -124,10 +124,10 @@
         <child link="second_link"/>
         <origin xyz="0 0 ${base_height}" rpy="0 0 0"/>
         <axis xyz="1 0 0" />
-        <limit lower="-0.3" upper="0.3" velocity="100" effort="100"/>
+        <limit lower="-0.18" upper="0.18" velocity="100" effort="100"/>
     </joint>
 
-    <joint name="secon_to_third_link_joint" type="revolute">
+    <joint name="second_to_third_link_joint" type="revolute">
         <parent link="second_link"/>
         <child link="third_link"/>
         <origin xyz="0 0 ${second_link_height}" rpy="0 0 0"/>
